@@ -96,7 +96,7 @@ F 3 "~" H 4200 1850 50  0001 C CNN
 	1    4200 1850
 	0    1    1    0   
 $EndComp
-Text Notes 2950 4600 0    79   ~ 16
+Text Notes 3000 4550 0    79   ~ 16
 DRIVE, 3, 2, 1\n\n
 $Comp
 L Device:R_Small_US R14
@@ -245,13 +245,13 @@ COMPARATOR REF VOLTAGE\n\n
 $Comp
 L Connector_Generic:Conn_02x07_Odd_Even J1
 U 1 1 5FF9780D
-P 9550 4000
-F 0 "J1" H 9600 4517 50  0000 C CNN
-F 1 "Conn_02x07_Odd_Even" H 9350 3550 50  0000 C CNN
-F 2 "Connector_JST:JST_PHD_S14B-PHDSS_2x07_P2.00mm_Horizontal" H 9550 4000 50  0001 C CNN
-F 3 "~" H 9550 4000 50  0001 C CNN
-	1    9550 4000
-	1    0    0    -1  
+P 9650 4000
+F 0 "J1" H 9700 4517 50  0000 C CNN
+F 1 "Conn_02x07_Odd_Even" H 9650 3550 50  0000 C CNN
+F 2 "Connector_JST:JST_PHD_S14B-PHDSS_2x07_P2.00mm_Horizontal" H 9650 4000 50  0001 C CNN
+F 3 "~" H 9650 4000 50  0001 C CNN
+	1    9650 4000
+	-1   0    0    -1  
 $EndComp
 Text GLabel 9350 3700 0    39   Input ~ 0
 PARK_IR
@@ -294,21 +294,6 @@ F 3 "" H 9850 4550 50  0001 C CNN
 	1    9850 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9850 3700 9850 3800
-Connection ~ 9850 3800
-Wire Wire Line
-	9850 3800 9850 3900
-Connection ~ 9850 3900
-Wire Wire Line
-	9850 3900 9850 4000
-Connection ~ 9850 4000
-Wire Wire Line
-	9850 4000 9850 4100
-Connection ~ 9850 4100
-Wire Wire Line
-	9850 4100 9850 4200
-Connection ~ 9850 4200
 Text Notes 8700 3400 0    39   ~ 0
 NOTE: IR receivers are intentionally reverse-bias
 Text Notes 9000 3300 0    79   ~ 16
@@ -316,13 +301,13 @@ IR Receiver Array
 $Comp
 L Connector_Generic:Conn_02x07_Odd_Even J2
 U 1 1 6007F83E
-P 9600 1900
-F 0 "J2" H 9650 2417 50  0000 C CNN
-F 1 "Conn_02x07_Odd_Even" H 9700 2300 50  0000 C CNN
-F 2 "Connector_JST:JST_PHD_S14B-PHDSS_2x07_P2.00mm_Horizontal" H 9600 1900 50  0001 C CNN
-F 3 "~" H 9600 1900 50  0001 C CNN
-	1    9600 1900
-	1    0    0    -1  
+P 9700 1900
+F 0 "J2" H 9750 2417 50  0000 C CNN
+F 1 "Conn_02x07_Odd_Even" H 9800 2300 50  0000 C CNN
+F 2 "Connector_JST:JST_PHD_S14B-PHDSS_2x07_P2.00mm_Horizontal" H 9700 1900 50  0001 C CNN
+F 3 "~" H 9700 1900 50  0001 C CNN
+	1    9700 1900
+	-1   0    0    -1  
 $EndComp
 Text GLabel 2350 1850 0    39   Input ~ 0
 PARK_INDICATOR
@@ -410,31 +395,6 @@ F 3 "" H 9900 1400 50  0001 C CNN
 	1    9900 1400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9900 2200 9900 2100
-Connection ~ 9900 1600
-Wire Wire Line
-	9900 1600 9900 1400
-Connection ~ 9900 1700
-Wire Wire Line
-	9900 1700 9900 1600
-Connection ~ 9900 1800
-Wire Wire Line
-	9900 1800 9900 1700
-Connection ~ 9900 1900
-Wire Wire Line
-	9900 1900 9900 1800
-Connection ~ 9900 2000
-Wire Wire Line
-	9900 2000 9900 1900
-Connection ~ 9900 2100
-Wire Wire Line
-	9900 2100 9900 2000
-Wire Wire Line
-	9850 4200 9850 4300
-Connection ~ 9850 4300
-Wire Wire Line
-	9850 4300 9850 4550
 $Comp
 L power:+5V #PWR0102
 U 1 1 60358810
@@ -533,9 +493,9 @@ $Comp
 L Comparator:LM339_DIP U2
 U 1 1 5FF864B7
 P 3400 5600
-F 0 "U2" H 3400 6500 79  0000 C CNN
-F 1 "LM339_DIP" H 3400 6350 79  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 3400 5250 79  0001 C CNN
+F 0 "U2" H 3400 6350 79  0000 C CNN
+F 1 "LM339_DIP" H 3400 4650 79  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3400 5250 79  0001 C CNN
 F 3 "" H 3400 5250 79  0001 C CNN
 	1    3400 5600
 	1    0    0    -1  
@@ -734,9 +694,9 @@ $Comp
 L Comparator:LM339_DIP U1
 U 1 1 5FF4E312
 P 3400 2350
-F 0 "U1" H 3400 3250 79  0000 C CNN
-F 1 "LM339_DIP" H 3400 3100 79  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 3400 2000 79  0001 C CNN
+F 0 "U1" H 3400 3100 79  0000 C CNN
+F 1 "LM339_DIP" H 3400 1400 79  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3400 2000 79  0001 C CNN
 F 3 "" H 3400 2000 79  0001 C CNN
 	1    3400 2350
 	1    0    0    -1  
@@ -751,7 +711,7 @@ U 1 1 601660C9
 P 6450 1800
 F 0 "D1" H 6443 2017 50  0000 C CNN
 F 1 "POWER ON" H 6443 1926 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm-3" H 6450 1800 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 6450 1800 50  0001 C CNN
 F 3 "~" H 6450 1800 50  0001 C CNN
 	1    6450 1800
 	1    0    0    -1  
@@ -805,4 +765,44 @@ $EndComp
 Wire Wire Line
 	6750 1600 6750 1800
 Connection ~ 6750 1800
+Wire Wire Line
+	9900 1400 9900 1600
+Wire Wire Line
+	9900 2100 9900 2200
+Wire Wire Line
+	9900 2100 9900 2000
+Connection ~ 9900 2100
+Connection ~ 9900 1600
+Connection ~ 9900 1700
+Wire Wire Line
+	9900 1700 9900 1600
+Connection ~ 9900 1800
+Wire Wire Line
+	9900 1800 9900 1700
+Connection ~ 9900 1900
+Wire Wire Line
+	9900 1900 9900 1800
+Connection ~ 9900 2000
+Wire Wire Line
+	9900 2000 9900 1900
+Wire Wire Line
+	9850 4300 9850 4550
+Wire Wire Line
+	9850 4300 9850 4200
+Connection ~ 9850 4300
+Connection ~ 9850 3800
+Wire Wire Line
+	9850 3800 9850 3700
+Connection ~ 9850 3900
+Wire Wire Line
+	9850 3900 9850 3800
+Connection ~ 9850 4000
+Wire Wire Line
+	9850 4000 9850 3900
+Connection ~ 9850 4100
+Wire Wire Line
+	9850 4100 9850 4000
+Connection ~ 9850 4200
+Wire Wire Line
+	9850 4200 9850 4100
 $EndSCHEMATC
