@@ -16,10 +16,15 @@ This board powers the above components, and uses two LM339 Voltage Comparators t
 A potentiometer is used to set a reference voltage for the comparators.
 
 # Parts list (unfinished)
+
 2 - LM339 Voltage Comparators, 14pin DIP
+
 2 - JST 14pin PHD connectors
+
 2 - JST 2pin PH connectors
+
 1 - 3mm LED (power on)
+
 1 - small potentiometer
 
 
