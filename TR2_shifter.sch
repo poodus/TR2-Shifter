@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "TR2 Shifter"
+Date "2021-01-12"
+Rev "5"
+Comp "Reetz Racing"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -120,12 +120,6 @@ F 3 "~" H 4250 5300 50  0001 C CNN
 	1    4250 5300
 	0    1    1    0   
 $EndComp
-Text Notes 8150 7500 2    79   ~ 16
-TR2 SHIFTER
-Text Notes 10700 7650 2    79   ~ 16
-5
-Text Notes 9250 7650 2    79   ~ 16
-2021-01-04\n
 $Comp
 L Device:R_Small_US R9
 U 1 1 6003BA52
@@ -421,52 +415,6 @@ F 3 "~" H 6950 1800 50  0001 C CNN
 	1    6950 1800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5FFB7B8B
-P 9200 5350
-F 0 "H1" H 9300 5396 50  0000 L CNN
-F 1 "MountingHole" H 9300 5305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9200 5350 50  0001 C CNN
-F 3 "~" H 9200 5350 50  0001 C CNN
-	1    9200 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5FFB83CC
-P 9200 5600
-F 0 "H2" H 9300 5646 50  0000 L CNN
-F 1 "MountingHole" H 9300 5555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9200 5600 50  0001 C CNN
-F 3 "~" H 9200 5600 50  0001 C CNN
-	1    9200 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5FFB857B
-P 9200 5850
-F 0 "H3" H 9300 5896 50  0000 L CNN
-F 1 "MountingHole" H 9300 5805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9200 5850 50  0001 C CNN
-F 3 "~" H 9200 5850 50  0001 C CNN
-	1    9200 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5FFB88A0
-P 9200 6100
-F 0 "H4" H 9300 6146 50  0000 L CNN
-F 1 "MountingHole" H 9300 6055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9200 6100 50  0001 C CNN
-F 3 "~" H 9200 6100 50  0001 C CNN
-	1    9200 6100
-	1    0    0    -1  
-$EndComp
-Text Notes 8850 5200 0    79   ~ 16
-MOUNTING HOLES\n
 $Comp
 L power:GND #PWR05
 U 1 1 5FF70400
@@ -794,12 +742,15 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR?
 U 1 1 5FFFC037
-P 6850 1800
-F 0 "#PWR?" H 6850 1650 50  0001 C CNN
-F 1 "+5V" H 6865 1973 50  0000 C CNN
-F 2 "" H 6850 1800 50  0001 C CNN
-F 3 "" H 6850 1800 50  0001 C CNN
-	1    6850 1800
+P 6750 1650
+F 0 "#PWR?" H 6750 1500 50  0001 C CNN
+F 1 "+5V" H 6750 1850 50  0000 C CNN
+F 2 "" H 6750 1650 50  0001 C CNN
+F 3 "" H 6750 1650 50  0001 C CNN
+	1    6750 1650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6750 1650 6750 1800
+Connection ~ 6750 1800
 $EndSCHEMATC
