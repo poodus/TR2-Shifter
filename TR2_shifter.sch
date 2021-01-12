@@ -380,7 +380,7 @@ F 3 "" H 6750 3400 50  0001 C CNN
 	1    6750 3400
 	1    0    0    -1  
 $EndComp
-Text Notes 6750 1450 0    79   ~ 16
+Text Notes 6650 1500 0    79   ~ 16
 POWER IN\n\n
 Text GLabel 9400 1600 0    39   Input ~ 0
 PARK_INDICATOR
@@ -751,20 +751,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 2000 6750 2000
 Connection ~ 6750 2000
-$Comp
-L power:+5V #PWR07
-U 1 1 6019ECEE
-P 6750 1600
-F 0 "#PWR07" H 6750 1450 50  0001 C CNN
-F 1 "+5V" H 6765 1773 50  0000 C CNN
-F 2 "" H 6750 1600 50  0001 C CNN
-F 3 "" H 6750 1600 50  0001 C CNN
-	1    6750 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 1600 6750 1800
-Connection ~ 6750 1800
 Wire Wire Line
 	9900 1400 9900 1600
 Wire Wire Line
@@ -805,4 +791,15 @@ Wire Wire Line
 Connection ~ 9850 4200
 Wire Wire Line
 	9850 4200 9850 4100
+$Comp
+L power:+5V #PWR?
+U 1 1 5FFFC037
+P 6850 1800
+F 0 "#PWR?" H 6850 1650 50  0001 C CNN
+F 1 "+5V" H 6865 1973 50  0000 C CNN
+F 2 "" H 6850 1800 50  0001 C CNN
+F 3 "" H 6850 1800 50  0001 C CNN
+	1    6850 1800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
