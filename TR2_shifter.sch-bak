@@ -416,52 +416,6 @@ F 3 "~" H 6950 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 5FFB7B8B
-P 9200 5350
-F 0 "H1" H 9300 5396 50  0000 L CNN
-F 1 "MountingHole" H 9300 5305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9200 5350 50  0001 C CNN
-F 3 "~" H 9200 5350 50  0001 C CNN
-	1    9200 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5FFB83CC
-P 9200 5600
-F 0 "H2" H 9300 5646 50  0000 L CNN
-F 1 "MountingHole" H 9300 5555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9200 5600 50  0001 C CNN
-F 3 "~" H 9200 5600 50  0001 C CNN
-	1    9200 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5FFB857B
-P 9200 5850
-F 0 "H3" H 9300 5896 50  0000 L CNN
-F 1 "MountingHole" H 9300 5805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9200 5850 50  0001 C CNN
-F 3 "~" H 9200 5850 50  0001 C CNN
-	1    9200 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5FFB88A0
-P 9200 6100
-F 0 "H4" H 9300 6146 50  0000 L CNN
-F 1 "MountingHole" H 9300 6055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 9200 6100 50  0001 C CNN
-F 3 "~" H 9200 6100 50  0001 C CNN
-	1    9200 6100
-	1    0    0    -1  
-$EndComp
-Text Notes 8850 5200 0    79   ~ 16
-MOUNTING HOLES\n
-$Comp
 L power:GND #PWR05
 U 1 1 5FF70400
 P 4200 2250
