@@ -1,16 +1,19 @@
 # TR2-Shifter
 A circuit board design for a custom hotrod gear indicator. Designed in KiCad.
 
-# HOW IT WORKS
-A single IR LED is connected to the shift handle of an automatic transmission. This heavily customized car uses a Pontiac Solstice ECOTEC engine / transmission inside of lakester-style Model A Ford body.
+# What it's for
+The car is a lakester-style Model A Ford hotrod, with a Pontiac Solstice ECOTEC swap. It uses an automatic transmission and a highly modified ECU, so there's currently no indication of what gear you're in.
 
-An array of IR detectors sit along the base of the shifter. As the emitter passes over different diodes, LEDs illuminate on a panel to indicate which gear the car is in.
+# How it works
+A single IR LED is connected to the gear shift handle.
+
+An array of IR detectors sits along the base of the shifter. As the emitter passes over different diodes, LEDs illuminate on a panel to indicate which gear the car is in.
 
 This board powers the above components, and uses two LM339 Voltage Comparators to illuminate the LEDs.
 
 A potentiometer is used to set a reference voltage for the comparators.
 
-# PARTS LIST (unfinished)
+# Parts list (unfinished)
 2 - LM339 Voltage Comparators, 14pin DIP
 2 - JST 14pin PHD connectors
 2 - JST 2pin PH connectors
