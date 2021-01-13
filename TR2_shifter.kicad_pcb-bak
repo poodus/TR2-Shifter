@@ -160,7 +160,7 @@
     (descr "JST PHD series connector, S14B-PHDSS (http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf), generated with kicad-footprint-generator")
     (tags "connector JST PHD horizontal")
     (path /6007F83E)
-    (fp_text reference "LED PANEL" (at 6 -1.524) (layer F.SilkS)
+    (fp_text reference "LED PANEL" (at -3.175 3.175 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.25)))
     )
     (fp_text value Conn_02x07_Odd_Even (at 6 11.43) (layer F.Fab)
@@ -220,7 +220,7 @@
     (descr "JST PHD series connector, S14B-PHDSS (http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf), generated with kicad-footprint-generator")
     (tags "connector JST PHD horizontal")
     (path /5FF9780D)
-    (fp_text reference "IR RECEIVER ARRAY" (at 6 -1.524) (layer F.SilkS)
+    (fp_text reference "IR REC. ARRAY" (at -3.175 4.445 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.25)))
     )
     (fp_text value Conn_02x07_Odd_Even (at 6 10.2) (layer F.Fab)
@@ -1091,7 +1091,7 @@
     (descr "JST PH series connector, B2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST PH side entry")
     (path /5FFABCF7)
-    (fp_text reference "IR LED" (at 1 -2.9 90) (layer F.SilkS)
+    (fp_text reference "IR LED" (at -3.175 0.635 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x02 (at 1 4 90) (layer F.Fab)
@@ -1478,7 +1478,7 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 221.615 98.425) (xy 151.13 98.425) (xy 151.13 68.58) (xy 221.615 68.58)
+        (xy 221.615 98.425) (xy 151.765 98.425) (xy 151.765 68.58) (xy 221.615 68.58)
       )
     )
     (filled_polygon
@@ -2023,13 +2023,13 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5FF9E81C) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5FFEFADB) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 221.615 98.425) (xy 151.13 98.425) (xy 151.13 68.58) (xy 221.615 68.58)
+        (xy 221.615 98.425) (xy 151.765 98.425) (xy 151.765 68.58) (xy 221.615 68.58)
       )
     )
     (filled_polygon
